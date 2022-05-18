@@ -1,0 +1,240 @@
+/* menu area start  */
+.menu {
+    height: 100px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_ul {
+    list-style-type: none;
+}
+
+.menu_ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu_ul a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #00000070;
+    position: relative;
+}
+
+.menu_ul a:hover {
+    color: #000000;
+}
+
+.menu_ul a:hover:after {
+    position: absolute;
+    opacity: 1;
+    content: "";
+    width: 100%;
+    bottom: -10px;
+    left: 0;
+    background-color: var(--color-green);
+    height: 2px;
+}
+
+.menu_arrow {
+    color: var(--color-green);
+}
+
+.menu_dropdown-toggle::after {
+    content: unset !important;
+}
+
+.menu_dropdown-menu {
+    padding: 15px;
+    width: max-content;
+}
+
+.menu_dropdown_ul li {
+    margin-top: 10px;
+    margin-right: 0px;
+    display: block;
+
+}
+
+.menu_dropdown_ul li:first-child {
+    margin-top: 0px;
+}
+
+.menu_dropdown_ul a {
+    margin-top: 10px !important;
+}
+
+
+.menu_dropdown_ul a:hover:after {
+    content: unset !important;
+}
+
+
+/* mobile_menu start */
+
+.humberger {
+    font-size: 25px;
+}
+
+/* mobile_menu end */
+
+
+/* menu area end  */
+
+
+
+/* section1 area start */
+.section_one {
+    min-height: 550px;
+    display: grid;
+    align-items: center;
+    background-image: url(../images/dotted_bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    position: relative;
+}
+
+.section_one_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #000000;
+}
+
+.s1_img3 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    z-index: -1;
+}
+
+.s1_img1 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+/* section1 area end */
+
+/* section2 area start */
+.section_two {
+    background-image: url(../images/s2_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px;
+    margin-top: 200px;
+}
+
+.s2_title_one {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffffaf;
+}
+
+.s2_title_two {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #13AE8D;
+    margin-top: 25px;
+}
+
+.s2_clogo_main {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+/* section2 area end */
+
+/* section3 area start */
+.section_three {
+    padding: 80px 0px;
+}
+
+.s3_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.s3_desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #808080;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.s3_link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.mask1 {
+    -webkit-mask-image: url(../images/mask.png);
+    mask-image: url(../images/mask.png);
+    -webkit-mask-size: 70%;
+    mask-size: 70%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+
+.s3_card_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.s3_card_btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline !important;
+    color: #13AE8D;
+}
+
+.s3_card_btn:hover{
+    color: #13AE8D;
+}
+
+.sv_card:nth-of-type(even){
+    flex-direction:row-reverse;
+}
+
+/* section3 area end */

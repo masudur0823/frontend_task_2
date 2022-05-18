@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+:root {
+  --color-green: #13AE8D;
+  --color-black: #000;
+}
+
+/* common css area  start*/
+.text_green {
+  color: var(--color-green) !important;
+}
+
+.para_one {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #00000075;
+}
+
+.button_one {
+  border: 2px solid #13AE8D;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #13AE8D;
+}
+
+.button_one:hover{
+  color: #fff;
+  background: #13AE8D;
+}
+
+/* common css area  end*/
